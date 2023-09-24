@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterAversin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-aversin@esm/index.mjs';
+import iterAversin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-aversin@v0.1.0-esm/index.mjs';
 ```
 
 #### iterAversin( iterator )
@@ -116,7 +116,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="module">
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import iterAversin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-aversin@esm/index.mjs';
+import iterAversin from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-aversin@v0.1.0-esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( 0.0, 2.0, {
